@@ -1,5 +1,8 @@
 /*
  * This is an exercise from Java for Dummies, 7th Edition
+ *
+ * This program takes user input to tell them how many days in a given month
+ *
  */
 package months;
 
