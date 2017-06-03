@@ -22,6 +22,7 @@ public class Factorials {
 	}
 	
 	out.println("Result is: " + result);	    //Print result
+	keyboard.close();
     }
     
 }
