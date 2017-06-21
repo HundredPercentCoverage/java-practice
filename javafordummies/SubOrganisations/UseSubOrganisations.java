@@ -1,5 +1,3 @@
-package useorganisations;
-
 import static java.lang.System.out;
 
 //This main class uses the Organisation_2 subclasses
