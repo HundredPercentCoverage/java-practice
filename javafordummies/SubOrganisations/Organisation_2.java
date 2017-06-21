@@ -1,5 +1,3 @@
-package useorganisations;
-
 //Basic Organisation class which will be subclassed
 public class Organisation_2 {
     private String organisationName;
