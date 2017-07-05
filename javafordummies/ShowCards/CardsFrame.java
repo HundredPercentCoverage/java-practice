@@ -27,10 +27,12 @@ public class CardsFrame extends JFrame {
 	name = check(card);
 	add(new JLabel(name + " of " + card.getSuit().toString()));
 	
+	add(new JLabel("Total cards: " + PlayingCard.getNumCards()));
+	
 	//Put everything together
 	setTitle("Playing Cards");
 	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	setLayout(new GridLayout(4, 1, 0, 3));
+	setLayout(new GridLayout(5, 1, 0, 3));
 	pack();
 	setVisible(true);
     }
