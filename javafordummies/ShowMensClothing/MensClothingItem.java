@@ -12,8 +12,8 @@ public class MensClothingItem {
     }
     
     //Getters
-    public ClothingType getItem() {
-	return item;
+    public String getItem() {
+	return item.toString();
     }
     
     public String getKind() {
